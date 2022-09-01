@@ -18,4 +18,6 @@ CKEDITOR.editorConfig = function (config) {
 	];
 
 	config.removeButtons = 'NewPage,Preview,Print,Templates,Form,Checkbox,Radio,TextField,Textarea,Select,Button,ImageButton,HiddenField,CopyFormatting,RemoveFormat,BidiLtr,BidiRtl,Language,Flash,PageBreak,Iframe,Styles,About,Save,CreateDiv,Maximize';
+
+	config.extraPlugins = 'footnotes';
 };
