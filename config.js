@@ -1,4 +1,5 @@
 CKEDITOR.editorConfig = function (config) {
+	/*
 	config.toolbarGroups = [
 		{ name: 'document', groups: ['mode', 'document', 'doctools'] },
 		{ name: 'clipboard', groups: ['clipboard', 'undo'] },
@@ -16,8 +17,9 @@ CKEDITOR.editorConfig = function (config) {
 		{ name: 'others', groups: ['others'] },
 		{ name: 'about', groups: ['about'] }
 	];
+	*/
 
-	config.removeButtons = 'NewPage,Preview,Print,Templates,Form,Checkbox,Radio,TextField,Textarea,Select,Button,ImageButton,HiddenField,CopyFormatting,RemoveFormat,BidiLtr,BidiRtl,Language,Flash,PageBreak,Iframe,Styles,About,Save,CreateDiv,Maximize';
+	//config.removeButtons = 'NewPage,Preview,Print,Templates,Form,Checkbox,Radio,TextField,Textarea,Select,Button,ImageButton,HiddenField,CopyFormatting,RemoveFormat,BidiLtr,BidiRtl,Language,Flash,PageBreak,Iframe,Styles,About,Save,CreateDiv,Maximize';
 
 	config.extraPlugins = 'footnotes';
 
