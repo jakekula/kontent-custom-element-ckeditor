@@ -17,8 +17,6 @@ CKEDITOR.editorConfig = function (config) {
 		{ name: 'about', groups: ['about'] }
 	];
 
-	config.plugins = 'footnotes';
-
 	config.removeButtons = 'NewPage,Preview,Print,Templates,Form,Checkbox,Radio,TextField,Textarea,Select,Button,ImageButton,HiddenField,CopyFormatting,RemoveFormat,BidiLtr,BidiRtl,Language,Flash,PageBreak,Iframe,Styles,About,Save,CreateDiv,Maximize';
 
 };
